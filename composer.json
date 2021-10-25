@@ -1,0 +1,20 @@
+{
+    "name": "vstaran/mycalc",
+    "description": "PHP calculator class which will accept two values as arguments then add, subtract, multiply or divide them",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Staranchuk",
+            "email": "vtipok89@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Liba\\": "src/"
+        }
+    }
+}
