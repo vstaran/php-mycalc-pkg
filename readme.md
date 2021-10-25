@@ -27,13 +27,27 @@ echo $mycalc->multiply();
 echo $mycalc->divide();
 ```
 
-# Подключение
+## Подключение
 
-Через https://packagist.org/ :
+В зависимости он нужного способа подключения, добавить в файл composer.json
+
+Через packagist.org:
 ```json
 "require": {
   "vstaran/mycalc": "*"
 }
+```
+
+
+Через github:
+```json
+"repositories": [
+  {
+     "type":"github",
+     "url":"git@github.com:vstaran/php-mycalc-pkg.git"
+  }
+]
+
 ```
 
 Через файловую систему:
